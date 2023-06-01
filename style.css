@@ -6,6 +6,8 @@
 
 .body {
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
@@ -18,9 +20,13 @@ ul {
     list-style-type: none;
 }
 
-.navbar {
+.navbar,
+header {
     background-color: #1f2937;
     color: #fff;
+}
+
+.navbar {
     height: 60px;
 }
 
@@ -48,3 +54,49 @@ ul {
 .container ul li {
     margin-left: 20px;
 }
+
+.header{
+    height: 400px;
+}
+
+.header .container .hero h1{
+    line-height: 1.2;
+}
+
+.header .container .hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.header .container .hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+    /* width: 300px;     */
+    margin-bottom: 10px;
+
+}
+
+
+.header .container .hero button {
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #e5e7eb;
+    border-radius: 5px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .container {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
