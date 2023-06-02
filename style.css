@@ -98,5 +98,29 @@ header {
     align-items: center;
 }
 
+.boxes .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes{
+    height: 400px;
+}
+
+.boxes .container h1{
+    margin: 40px 0;
+}
+
+.boxes .container .box-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxes .container .box-section .box p{
+    text-align: center;
+}
 
 
