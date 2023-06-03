@@ -1,2 +1,2 @@
 # project1
-Simple project using HTML &amp; CSS
+Building a Simple project using HTML &amp; CSS
