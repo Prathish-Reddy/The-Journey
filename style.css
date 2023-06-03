@@ -150,3 +150,26 @@ header {
     align-items: flex-end;
     justify-content: center;
 }
+
+.action{
+    height: 300px;
+    padding: 100px;
+}
+
+.action .container{
+    height: 125px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #f9faf8;
+}
+
+.action .container .sub-container h3{
+    font-weight: bold;
+
+}
+
+.action .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
