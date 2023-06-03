@@ -55,11 +55,11 @@ header {
     margin-left: 20px;
 }
 
-.header{
+.header {
     height: 400px;
 }
 
-.header .container .hero h1{
+.header .container .hero h1 {
     line-height: 1.2;
 }
 
@@ -86,41 +86,67 @@ header {
 
 }
 
-.header{
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .header .container {
-    display: flex;  
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.boxes .container{
+.boxes .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.boxes{
+.boxes {
     height: 400px;
 }
 
-.boxes .container h1{
+.boxes .container h1 {
     margin: 40px 0;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
 
-.boxes .container .box-section{
+.boxes .container .box-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.boxes .container .box-section .box p{
+.boxes .container .box-section .box p {
     text-align: center;
+    font-size: 18px;
 }
 
+.quote {
+    display: flex;
+    height: 300px;
+    background-color: #e5e7eb;
+}
 
+.quote .container .text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote .container .author {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
