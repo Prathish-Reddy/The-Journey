@@ -74,6 +74,7 @@ header {
     color: #e5e7eb;
     /* width: 300px;     */
     margin-bottom: 10px;
+    text-align: left;
 
 }
 
@@ -108,7 +109,6 @@ header {
 .boxes .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -121,9 +121,19 @@ header {
 
 .boxes .container .box-section {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+    justify-content: center;
+    /* flex-wrap: wrap;   */
+}   
+
+ .boxes .container .box-section .box img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+ }
+
 
 .boxes .container .box-section .box p {
     text-align: center;
