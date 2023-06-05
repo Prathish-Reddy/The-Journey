@@ -81,7 +81,9 @@ header {
 .header .container .hero button {
     background-color: #3882f6;
     font-size: 18px;
+    font-weight: bold   ;
     color: #e5e7eb;
+    padding: 5px 20px;
     border-radius: 5px;
 
 }
@@ -98,15 +100,16 @@ header {
     align-items: center;
 }
 
+.boxes {
+    display: flex;
+    height: 400px;
+}
+
 .boxes .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.boxes {
-    height: 400px;
 }
 
 .boxes .container h1 {
@@ -168,20 +171,30 @@ header {
 
 }
 
+.action .container button{
+
+    background-color: #3882f6;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 20px;
+
+}
+
 .action .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.footer{
+.footer {
     height: 100px;
     background-color: #1f2937;
     color: #fff;
     display: flex;
 }
 
-.footer .container{
+.footer .container {
     display: flex;
     justify-content: center;
     align-items: center;
